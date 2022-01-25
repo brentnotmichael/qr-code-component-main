@@ -47,10 +47,9 @@ body {
 }
 
 div.qr-card {
-    width: 288px;
+    width: 320px;
     background: var(--white);
     margin: auto;
-    padding: 16px;
     border-radius: 16px;
 }
 
@@ -58,13 +57,14 @@ div.qr-card {
     border-radius: 8px;
     width: 288px;
     height: 288px;
+    margin: 16px;
 }
 
 .qr-card > h1,
 .qr-card > p {
     font-family: "Outfit", sans-serif;
     text-align: center;
-    margin: 1em 16px;
+    margin: 16px;
 }
 
 .qr-card > h1 {
@@ -73,5 +73,7 @@ div.qr-card {
 }
 
 .qr-card > p {
+    font-size: 1em;
     color: var(--grayish-blue);
+    margin-bottom: 1.5em;
 }
